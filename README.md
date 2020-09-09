@@ -1,5 +1,8 @@
 # JavaScript-jQuery-mini-projects
-Simple game using JavaScript
 
-1. Reaction Tester: Let's check how fast you can respond { my best time is 0.343s :) }
+1. Reaction Tester: Simple game using JavaScript
+   Let's check how fast you can respond { my best time is 0.343s :) }
+   
+2. Form Validation: To validate details submitted in form
+   Implemented using jQuery and uses RegEx to validate details
 
