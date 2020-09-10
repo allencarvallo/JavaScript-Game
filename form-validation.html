@@ -116,8 +116,12 @@
                 }
                 
 
-                if ($.isNumeric($("#phone").val()) == false) {                   
+                var phoneNumber = $("#phone").val()
+                if ($.isNumeric(phoneNumber) == false)   {                   
                     errorMessage += "<p>Your phone number is not valid</p>";                   
+                }
+                if(phoneNumber.length != 10) {
+                    errorMessage +=  "<p>Phone number should be 10 digits</p>"
                 }
 
                 if ($("#password").val() != $("#passwordConfirm").val()) {                   
