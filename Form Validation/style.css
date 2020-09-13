@@ -1,0 +1,49 @@
+#heading {
+    font-size: 200%;
+    background-color: cadetblue;
+    position: relative;
+    margin: 20px auto;
+    height: 60px;
+    width: 700px;
+    text-align:center;
+    border-radius: 7px;
+}
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 130%;
+}
+input {
+    padding: 5px 5px 12px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+label {
+    position: relative;
+    top: 12px;
+    width: 200px;
+    float: left;
+}
+#wrapper {
+    width: 700px;
+    margin: auto;
+    background-color: azure;
+}
+.form-element {
+    margin-bottom:10px;
+}
+#submitButton {
+    margin-left: 200px;
+    background-color: lightgrey;
+}
+#errorMessage {
+    color: red;
+    font-size: 90% !important;     
+    /* !important overrides any other css instruction other than this related to font-size*/
+}
+#successMessage{
+    color: green;
+    font-size: 90% !important;
+    display: none;
+    margin-bottom: 20px;
+}
